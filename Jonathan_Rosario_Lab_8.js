@@ -7,11 +7,11 @@
 
 
 //variables
-
+/*
 var myEmail = "jonathanrosario@fullsailedu"
 
 //function
-/*
+
 var emailChecker = function(stringToCheck) {
 
 	var AtLocation = myEmail.lastIndexOf("@");
@@ -59,51 +59,19 @@ emailChecker();
 
 //Problem 2
 
-var myList = "Jonathan Alyssa Britney";
+var myList = 'Jonathan Alyssa Britney';
 
-var spaceChanger = function(stringToChange) {
-	
-	stringToChange = stringToChange.toLowerCase();
-	
-	var restOfWord = "";
-	var stringArray = stringToChange.split(" ");
-	
-	for (var key in stringArray) {
-		
-		resOfWord = "";
-		
-		for (var i = 0; i < stringArray[key].length; i++) {
-			
-			if (i = 0) {
-				
-				var firstLetter = stringArray[key][i]touppercase();
-				
-			} else {
-				
-				restOfWord = restOfWord + stringArray[key][i];
-				
-			};
-			
-		};
-	
-		if (TitleWord == "") {
-	
-		titleWord = firstLetter + restOfWord;
-	
-		} else {
-	
-		titleWord = titleWord + " " + firstLetter + restOfWord;
-		
-		}
-		
-	};
-	
-	return titleWord;
-	
+var listChanger = function(myList) {
+
+	var replaced = myList.split(' ').join(',');
+	console.log(replaced)
+
+	var replaced = myList.split(' ').join('/');
+	console.log(replaced)
+
 };
 
-var fixedString = spaceChanger(toTitleCase);
-console.log("The fixed title is\"" + fixedString + "\"");
+listChanger()
 
 
 
