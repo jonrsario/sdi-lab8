@@ -59,17 +59,17 @@ emailChecker();
 
 //Problem 2
 
-var myList = "Jonathan Alyssa Britney Angel Joe Katie";
+var myList = "Alyssa Britney Lauren Angel Joe Katie";
 var myComma = ","
 var mySlash = "/"
 
-var listChanger = function(replaced) {
+var listChanger = function(firstReplaced, secondReplaced) {
 
-	replaced = myList.split(' ').join(myComma);
-	console.log(replaced)
+	firstReplaced = myList.split(' ').join(myComma);
+	console.log("These are my friends: " + firstReplaced)
 
-	replaced = myList.split(' ').join(mySlash);
-	console.log(replaced)
+	secondReplaced = myList.split(' ').join(mySlash);
+	console.log("These are my friends: " + secondReplaced)
 
 };
 
