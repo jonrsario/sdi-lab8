@@ -3,8 +3,14 @@
 //Jonathan Rosario
 //Lab 8
 //Problem 1
+//Email Checker
 
-var myEmail = "jonathanrosario@fullsail.edu"
+
+//variables
+
+var myEmail = "jonathanrosario@fullsailedu"
+
+//function
 
 var emailChecker = function(stringToCheck) {
 
@@ -34,7 +40,7 @@ var emailChecker = function(stringToCheck) {
 
 	if (myPeriod < 1) {
 
-		console.log("The email address has a period in the wrong place!");
+		console.log("Revise your period location!");
 
 	}
 
