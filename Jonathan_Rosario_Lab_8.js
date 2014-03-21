@@ -7,7 +7,9 @@
 
 
 //variables
+
 /*
+
 var myEmail = "jonathanrosario@fullsailedu"
 
 //function
